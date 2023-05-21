@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Oswald:wght@700&display=swap');
+
+/* For Game titles -> font-family: 'Oswald', sans-serif; */
+html
+{
+    font-family: 'Heebo', sans-serif;
+    background-color: #3D0076;
+}
+h1
+{
+    text-align: center;
+    color: #F7F0F0;
+}
+section
+{
+    background-color: #003F9D;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+section img
+{
+    width: 90%;
+    border-radius: 1em;
+    margin: 1em;
+}
+div
+{
+    padding: 1em;
+    font-family: 'Oswald', sans-serif;
+}
