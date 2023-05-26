@@ -5,17 +5,26 @@ html
 {
     font-family: 'Heebo', sans-serif;
     background-color: #3D0076;
+    color: #F7F0F0;
 }
 h1
 {
     text-align: center;
-    color: #F7F0F0;
 }
 section
 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: #003F9D;
     border-radius: 1em;
     margin-bottom: 1em;
+    transition: transform .5s;
+    box-shadow: 10px 10px 20px black;
+}
+section:hover
+{
+    transform: scale(1.02);
 }
 section img
 {
@@ -27,4 +36,8 @@ div
 {
     padding: 1em;
     font-family: 'Oswald', sans-serif;
+}
+#desc
+{
+    grid-column: 1/3;
 }
